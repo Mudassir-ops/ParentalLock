@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_onGoing_parent">
+
+    <fragment
+        android:id="@+id/navigation_onGoing_parent"
+        android:name="com.example.parentallock.presentation.ongoingscreens.OnGoingParentFragment"
+        android:label="On Going Parent Fragment"
+        tools:layout="@layout/fragment_on_going_parent">
+        <action
+            android:id="@+id/action_navigation_onGoing_parent_to_navigation_home"
+            app:destination="@id/navigation_home" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.parentallock.presentation.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_parent_app_lock"
+            app:destination="@id/navigation_parent_app_lock" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_parent_app_lock"
+        android:name="com.example.parentallock.presentation.instantlock.AppLockParentFragment"
+        android:label="Parental App Lock"
+        tools:layout="@layout/fragment_app_lock_parent">
+        <action
+            android:id="@+id/action_navigation_parent_app_lock_to_navigation_custom_app_lock"
+            app:destination="@id/navigation_custom_app_lock" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/navigation_custom_app_lock"
+        android:name="com.example.parentallock.presentation.customlock.CustomAppLockFragment"
+        android:label="Custom App Lock"
+        tools:layout="@layout/fragment_custom_app_lock" />
+
+</navigation>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Parental Lock</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="welcome_to_child_app_lock">Welcome to Child App Lock</string>
+    <string name="smart_parental_controls_give">Smart parental controls give\n</string>
+    <string name="you_peace_of_mind">you peace of mind</string>
+    <string name="get_device_from_child">Get Device From Child\n</string>
+    <string name="without_fight">Without Fight</string>
+    <string name="set_timer_select_allowed">Set timer, Select allowed\n</string>
+    <string name="apps_get_phone_back">apps, Get Phone Back</string>
+    <string name="next">NEXT</string>
+    <string name="get_started">Get Started</string>
+    <string name="child_app_lock">Child App Lock</string>
+    <string name="custom_lock">Custom Lock</string>
+    <string name="instant_lock">Instant Lock</string>
+    <string name="unknown_calling">Unknown Calling</string>
+    <string name="unknown_calling_number">+92 303 6677888</string>
+    <string name="activate_now">Activate Now</string>
+    <string name="swipe_to_unlock">Swipe To Unlock</string>
+    <string name="instant_lock_activated">Instant Lock Activated</string>
+    <string name="custom_lock_activated">Custom Lock Activated</string>
+    <string name="apply_lock_on_custom_apps">Apply Custom Lock</string>
+
+</resources>

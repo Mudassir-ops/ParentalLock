@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="instantAppDataModel"
+            type="com.example.parentallock.data.model.InstantLockAdapterItem.NORMAL" />
+    </data>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_130sdp"
+        android:layout_marginHorizontal="@dimen/_2sdp"
+        android:layout_marginVertical="@dimen/_5sdp"
+        android:background="@drawable/instant_animation_bg_shape"
+        android:elevation="@dimen/_3sdp">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/instant_lock_animation"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:elevation="@dimen/_5sdp"
+            android:paddingHorizontal="@dimen/_5sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent="1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="1"
+            app:lottieAnimationFromType="@{instantAppDataModel.lottieRawRes}"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true" />
+
+        <com.example.parentallock.utils.CustomizeInstantCheckBox
+            android:id="@+id/btnCheck"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_margin="@dimen/_5sdp"
+            android:button="@null"
+            android:checked="@{instantAppDataModel.isSelected}"
+            android:clickable="true"
+            android:enabled="true"
+            android:focusable="true"
+            android:fontFamily="@font/poppins_bold"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent="0.1"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="0.7" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

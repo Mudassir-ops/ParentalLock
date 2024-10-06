@@ -1,0 +1,25 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.ParentalLock" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/startColor</item>
+        <item name="colorPrimaryVariant">@color/endColor</item>
+        <item name="colorOnPrimary">@color/endColor</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/startColor</item>
+        <item name="colorSecondaryVariant">@color/endColor</item>
+        <item name="colorOnSecondary">@color/endColor</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/white</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="SlideToActView">
+        <item name="text">SlideToActView</item>
+        <item name="text_size">@dimen/slidetoact_default_text_size</item>
+        <item name="area_margin">@dimen/slidetoact_default_area_margin</item>
+        <item name="inner_color">?android:colorBackground</item>
+        <item name="outer_color">?colorAccent</item>
+        <item name="slider_locked">false</item>
+    </style>
+</resources>
