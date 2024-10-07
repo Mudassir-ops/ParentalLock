@@ -6,6 +6,8 @@ import androidx.appcompat.widget.AppCompatCheckBox
 import androidx.navigation.NavController
 import androidx.viewpager2.widget.ViewPager2
 import com.example.parentallock.R
+import com.example.parentallock.utils.CustomizeCheckBox
+import com.example.parentallock.utils.all_extension.showToast
 import com.google.android.material.button.MaterialButton
 
 fun MaterialButton.setupNextButton(
@@ -37,10 +39,25 @@ fun AppCompatCheckBox.setMutuallyExclusiveWith(otherCheckBox: CheckBox) {
     }
 }
 
-fun View.safeNavigateOnClick(navController: NavController, currentDestId: Int, actionId: Int) {
+fun View.safeNavigateOnClick(
+    navController: NavController,
+    currentDestId: Int,
+    actionId: Int,
+    actionIdForCustomLock: Int,
+    btnCustomLock: CustomizeCheckBox,
+    btnInstantLock: CustomizeCheckBox
+) {
     setOnClickListener {
-        if (navController.currentDestination?.id == currentDestId) {
-            navController.navigate(actionId)
+        if (btnCustomLock.isChecked) {
+            if (navController.currentDestination?.id == currentDestId) {
+                navController.navigate(actionIdForCustomLock)
+            }
+        } else if (btnInstantLock.isChecked) {
+            if (navController.currentDestination?.id == currentDestId) {
+                navController.navigate(actionId)
+            }
+        } else {
+            this.context?.showToast(context.getString(R.string.please_select_a_lock_option))
         }
     }
 }

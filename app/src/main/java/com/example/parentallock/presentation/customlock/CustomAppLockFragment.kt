@@ -123,7 +123,6 @@ class CustomAppLockFragment : Fragment(R.layout.fragment_custom_app_lock) {
             headerLayout.ivNotification.gone()
             headerLayout.btnBack.visible()
             headerLayout.tvHeaderTitle.text = getString(R.string.apply_lock_on_custom_apps)
-            headerLayout.tvHeaderTitle.setTextColor(Color.WHITE)
         }
         setupVersionsRecyclerView()
         observeVersionsData()

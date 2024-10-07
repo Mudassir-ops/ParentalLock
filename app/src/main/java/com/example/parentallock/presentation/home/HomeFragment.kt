@@ -25,7 +25,10 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
         binding?.btnNext?.safeNavigateOnClick(
             navController = findNavController(),
             currentDestId = R.id.navigation_home,
-            actionId = R.id.action_navigation_home_to_navigation_parent_app_lock
+            actionId = R.id.action_navigation_home_to_navigation_parent_app_lock,
+            actionIdForCustomLock = R.id.action_navigation_home_to_navigation_custom_app_lock,
+            btnCustomLock = btnCustomLock,
+            btnInstantLock = btnInstantLock
         )
     }
 }

@@ -23,6 +23,9 @@
         <action
             android:id="@+id/action_navigation_home_to_navigation_parent_app_lock"
             app:destination="@id/navigation_parent_app_lock" />
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_custom_app_lock"
+            app:destination="@id/navigation_custom_app_lock" />
     </fragment>
 
     <fragment
@@ -33,6 +36,12 @@
         <action
             android:id="@+id/action_navigation_parent_app_lock_to_navigation_custom_app_lock"
             app:destination="@id/navigation_custom_app_lock" />
+        <action
+            android:id="@+id/action_navigation_parent_app_lock_to_navigation_premium_screen"
+            app:destination="@id/navigation_premium_screen" />
+        <action
+            android:id="@+id/action_navigation_parent_app_lock_to_navigation_settings_screen"
+            app:destination="@id/navigation_settings_screen" />
     </fragment>
 
 
@@ -41,5 +50,17 @@
         android:name="com.example.parentallock.presentation.customlock.CustomAppLockFragment"
         android:label="Custom App Lock"
         tools:layout="@layout/fragment_custom_app_lock" />
+
+    <fragment
+        android:id="@+id/navigation_premium_screen"
+        android:name="com.example.parentallock.presentation.premium.PremiumFragment"
+        android:label="Premium Screen"
+        tools:layout="@layout/fragment_premium" />
+
+    <fragment
+        android:id="@+id/navigation_settings_screen"
+        android:name="com.example.parentallock.presentation.settings.SettingsFragment"
+        android:label="Settings Screen"
+        tools:layout="@layout/fragment_settings" />
 
 </navigation>

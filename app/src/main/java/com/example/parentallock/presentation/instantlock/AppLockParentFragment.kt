@@ -138,6 +138,16 @@ class AppLockParentFragment : Fragment(R.layout.fragment_app_lock_parent) {
                 findNavController().navigate(R.id.action_navigation_parent_app_lock_to_navigation_custom_app_lock)
             }
         }
+        binding?.headerLayout?.ivNotification?.setOnClickListener {
+            if (findNavController().currentDestination?.id == R.id.navigation_parent_app_lock) {
+                findNavController().navigate(R.id.action_navigation_parent_app_lock_to_navigation_premium_screen)
+            }
+        }
+        binding?.headerLayout?.ivSettings?.setOnClickListener {
+            if (findNavController().currentDestination?.id == R.id.navigation_parent_app_lock) {
+                findNavController().navigate(R.id.action_navigation_parent_app_lock_to_navigation_settings_screen)
+            }
+        }
     }
 
     private fun checkAndRequestOverlayPermission() {

@@ -3,7 +3,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <data>
-
         <variable
             name="onGoingModel"
             type="com.example.parentallock.data.model.OnGoingScreenModel" />
@@ -12,17 +11,184 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/background_gradient">
+        android:layout_height="match_parent">
 
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@+id/iv_app_version"
+            android:id="@+id/iv_premium_logo"
             android:layout_width="0dp"
-            android:layout_height="@dimen/_120sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_60sdp"
             android:elevation="@dimen/_5sdp"
-            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent="0.28"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="0.38"
+            app:srcCompat="@drawable/premium_icon" />
 
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_premium_label"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:elevation="@dimen/_5sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_premium_logo"
+            app:layout_constraintWidth_percent="0.60"
+            app:srcCompat="@drawable/all_premium_label" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_checkBox"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_marginStart="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_40sdp"
+            app:layout_constraintHeight_percent="0.28"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_premium_label"
+            app:layout_constraintWidth_percent="0.40"
+            app:srcCompat="@drawable/premium_check_box" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_label_one"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_12sdp"
+            android:fontFamily="@font/poppins"
+            android:text="@string/limited_screen_time"
+            android:textAlignment="viewStart"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_checkBox"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/iv_checkBox"
+            app:layout_constraintTop_toTopOf="@+id/iv_checkBox" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_checkBox_2"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            app:layout_constraintHeight_percent="0.28"
+            app:layout_constraintStart_toStartOf="@+id/iv_checkBox"
+            app:layout_constraintTop_toBottomOf="@+id/iv_checkBox"
+            app:layout_constraintWidth_percent="0.40"
+            app:srcCompat="@drawable/premium_check_box" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_label_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_12sdp"
+            android:fontFamily="@font/poppins"
+            android:text="@string/choose_which_app_are_allowed"
+            android:textAlignment="viewStart"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_checkBox_2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/iv_checkBox_2"
+            app:layout_constraintTop_toTopOf="@+id/iv_checkBox_2" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_checkBox_3"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            app:layout_constraintHeight_percent="0.28"
+            app:layout_constraintStart_toStartOf="@+id/iv_checkBox_2"
+            app:layout_constraintTop_toBottomOf="@+id/iv_checkBox_2"
+            app:layout_constraintWidth_percent="0.40"
+            app:srcCompat="@drawable/premium_check_box" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_label_3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_12sdp"
+            android:fontFamily="@font/poppins"
+            android:text="@string/choose_lock_screen"
+            android:textAlignment="viewStart"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_checkBox_3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/iv_checkBox_3"
+            app:layout_constraintTop_toTopOf="@+id/iv_checkBox_3" />
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_checkBox_4"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintHeight_percent="0.28"
+            app:layout_constraintStart_toStartOf="@+id/iv_checkBox_3"
+            app:layout_constraintTop_toBottomOf="@+id/iv_checkBox_3"
+            app:layout_constraintWidth_percent="0.40"
+            app:srcCompat="@drawable/premium_check_box" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_label_4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_12sdp"
+            android:fontFamily="@font/poppins"
+            android:text="@string/change_unlock_button_position"
+            android:textAlignment="viewStart"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_checkBox_4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/iv_checkBox_4"
+            app:layout_constraintTop_toTopOf="@+id/iv_checkBox_4" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_checkBox_5"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            app:layout_constraintHeight_percent="0.28"
+            app:layout_constraintStart_toStartOf="@+id/iv_checkBox_4"
+            app:layout_constraintTop_toBottomOf="@+id/iv_checkBox_4"
+            app:layout_constraintWidth_percent="0.40"
+            app:srcCompat="@drawable/premium_check_box" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_label_5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_12sdp"
+            android:fontFamily="@font/poppins"
+            android:text="@string/multiple_unlock_method"
+            android:textAlignment="viewStart"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_checkBox_5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/iv_checkBox_5"
+            app:layout_constraintTop_toTopOf="@+id/iv_checkBox_5" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnNext"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="@dimen/_30sdp"
+            android:background="@drawable/button_shape"
+            android:elevation="@dimen/_10sdp"
+            android:fontFamily="@font/lemon"
+            android:text="@string/next"
+            android:textColor="@color/endColor"
+            android:textSize="@dimen/_11ssp"
+            app:backgroundTint="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent="0.060"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintVertical_bias="0.8"
+            app:layout_constraintWidth_percent="0.40"
+            app:textAllCaps="false" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

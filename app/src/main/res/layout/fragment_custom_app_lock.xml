@@ -4,9 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingHorizontal="@dimen/_10sdp"
-    android:paddingTop="@dimen/_10sdp"
-    android:paddingBottom="@dimen/_5sdp"
+    android:background="@color/light_white"
     tools:context=".presentation.customlock.CustomAppLockFragment">
 
     <include
@@ -19,8 +17,9 @@
         android:layout_height="0dp"
         android:layout_marginTop="@dimen/_10sdp"
         android:orientation="vertical"
+        android:paddingHorizontal="@dimen/_10sdp"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/btn_activate"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/header_layout" />
@@ -44,7 +43,7 @@
         android:textColor="@color/white"
         android:textSize="@dimen/_11ssp"
         android:visibility="visible"
-        app:backgroundTint="@color/startColor"
+        app:backgroundTint="@color/endColor"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHeight_percent="0.08"

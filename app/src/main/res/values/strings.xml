@@ -22,5 +22,17 @@
     <string name="instant_lock_activated">Instant Lock Activated</string>
     <string name="custom_lock_activated">Custom Lock Activated</string>
     <string name="apply_lock_on_custom_apps">Apply Custom Lock</string>
+    <string name="please_select_a_lock_option">Please select a lock option</string>
+    <string name="limited_screen_time">Limited screen time</string>
+    <string name="choose_which_app_are_allowed">Choose which app are allowed</string>
+    <string name="choose_lock_screen">Choose lock screen</string>
+    <string name="change_unlock_button_position">Change unlock button position</string>
+    <string name="multiple_unlock_method">Multiple unlock method</string>
+    <string name="settings">Settings</string>
+    <string name="more_apps">More Apps</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="share">Share</string>
+    <string name="about_us">About Us</string>
+    <string name="privacy_policy">Privacy Policy</string>
 
 </resources>
