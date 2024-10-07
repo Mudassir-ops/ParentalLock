@@ -5,6 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/light_white"
+    android:paddingHorizontal="@dimen/_15sdp"
+    android:paddingTop="@dimen/_10sdp"
     tools:context=".presentation.settings.SettingsFragment">
 
     <include
