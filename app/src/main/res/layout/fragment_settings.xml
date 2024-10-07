@@ -131,7 +131,7 @@
         app:layout_constraintStart_toStartOf="@+id/iv_checkBox_4"
         app:layout_constraintTop_toBottomOf="@+id/iv_checkBox_4"
         app:layout_constraintWidth_percent="0.40"
-        app:srcCompat="@drawable/privacy_policy_icon" />
+        app:srcCompat="@drawable/privacy_icon_new" />
 
     <com.google.android.material.textview.MaterialTextView
         android:id="@+id/tv_label_5"
