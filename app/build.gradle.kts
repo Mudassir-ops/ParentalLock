@@ -12,6 +12,14 @@ android {
     namespace = "com.parental.control.displaytime.kids.safety"
     compileSdk = 34
 
+    signingConfigs.create("release") {
+        storeFile =
+            File("/Users/mudassirsatti/AndroidStudioProjects/ParentalLock/parental_lock.jks")
+        storePassword = "lockparental"
+        keyAlias = "lock0"
+        keyPassword = "lockparental"
+    }
+
     defaultConfig {
         applicationId = "com.parental.control.displaytime.kids.safety"
         minSdk = 24
@@ -20,15 +28,14 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-
+        setProperty("archivesBaseName", "Parental_Lock-v$versionCode($versionName)")
     }
 
     buildTypes {
-        release {
+        getByName("release") {
             isMinifyEnabled = false
             proguardFiles(
-                getDefaultProguardFile("proguard-android-optimize.txt"),
-                "proguard-rules.pro"
+                getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro"
             )
         }
     }
@@ -74,6 +81,5 @@ dependencies {
     implementation(libs.lottie)
     implementation(libs.androidx.datastore.preferences)
     kapt(libs.androidx.room.compiler.v250)
-
 
 }
