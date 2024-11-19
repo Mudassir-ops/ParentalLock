@@ -6,8 +6,8 @@ import androidx.appcompat.widget.AppCompatImageView
 import androidx.databinding.BindingAdapter
 import com.airbnb.lottie.LottieAnimationView
 import com.bumptech.glide.Glide
-import com.example.parentallock.R
 import com.google.android.material.textview.MaterialTextView
+import com.parental.control.displaytime.kids.safety.R
 
 @BindingAdapter("android:text")
 fun setText(view: MaterialTextView, text: CharSequence?) {

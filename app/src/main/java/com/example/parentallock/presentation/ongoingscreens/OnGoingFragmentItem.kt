@@ -4,9 +4,9 @@ import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
-import com.example.parentallock.R
-import com.example.parentallock.data.model.OnGoingScreenModel
-import com.example.parentallock.databinding.FragmentOnGoingFragmentItemBinding
+import com.parental.control.displaytime.kids.safety.R
+import com.parental.control.displaytime.kids.safety.data.model.OnGoingScreenModel
+import com.parental.control.displaytime.kids.safety.databinding.FragmentOnGoingFragmentItemBinding
 import com.example.parentallock.utils.AppConstants.ON_GOING_DATA_MODEL
 import com.example.parentallock.utils.viewBinding
 import dagger.hilt.android.AndroidEntryPoint

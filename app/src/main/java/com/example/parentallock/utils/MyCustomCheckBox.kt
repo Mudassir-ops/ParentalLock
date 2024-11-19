@@ -3,7 +3,7 @@ package com.example.parentallock.utils
 import android.content.Context
 import android.util.AttributeSet
 import androidx.appcompat.widget.AppCompatCheckBox
-import com.example.parentallock.R
+import com.parental.control.displaytime.kids.safety.R
 
 class MyCustomCheckBox(context: Context?, attrs: AttributeSet?) : AppCompatCheckBox(
     context!!, attrs

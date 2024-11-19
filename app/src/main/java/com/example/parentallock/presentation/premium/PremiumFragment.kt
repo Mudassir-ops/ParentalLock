@@ -3,8 +3,8 @@ package com.example.parentallock.presentation.premium
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
-import com.example.parentallock.R
-import com.example.parentallock.databinding.FragmentPremiumBinding
+import com.parental.control.displaytime.kids.safety.R
+import com.parental.control.displaytime.kids.safety.databinding.FragmentPremiumBinding
 import com.example.parentallock.utils.viewBinding
 
 class PremiumFragment : Fragment(R.layout.fragment_premium) {

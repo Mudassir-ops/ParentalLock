@@ -2,13 +2,13 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".presentation.ongoingscreens.OnGoingFragmentItem">
+    tools:context="com.example.parentallock.presentation.ongoingscreens.OnGoingFragmentItem">
 
     <data>
 
         <variable
             name="onGoingModel"
-            type="com.example.parentallock.data.model.OnGoingScreenModel" />
+            type="com.parental.control.displaytime.kids.safety.data.model.OnGoingScreenModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

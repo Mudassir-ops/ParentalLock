@@ -2,7 +2,6 @@ package com.example.parentallock.presentation.customlock
 
 import android.app.Activity.RESULT_OK
 import android.content.Intent
-import android.graphics.Color
 import android.net.Uri
 import android.os.Bundle
 import android.provider.Settings
@@ -15,11 +14,11 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.flowWithLifecycle
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
-import com.example.parentallock.R
-import com.example.parentallock.data.model.AllAppsEntity
-import com.example.parentallock.data.model.MessageEvent
-import com.example.parentallock.data.model.ServiceEvent
-import com.example.parentallock.databinding.FragmentCustomAppLockBinding
+import com.parental.control.displaytime.kids.safety.R
+import com.parental.control.displaytime.kids.safety.data.model.AllAppsEntity
+import com.parental.control.displaytime.kids.safety.data.model.MessageEvent
+import com.parental.control.displaytime.kids.safety.data.model.ServiceEvent
+import com.parental.control.displaytime.kids.safety.databinding.FragmentCustomAppLockBinding
 import com.example.parentallock.service.LockScreenService
 import com.example.parentallock.utils.SessionManager
 import com.example.parentallock.utils.all_extension.gone

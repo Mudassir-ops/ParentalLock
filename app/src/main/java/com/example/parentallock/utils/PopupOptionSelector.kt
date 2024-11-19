@@ -5,7 +5,7 @@ import android.view.Gravity
 import android.view.MenuItem
 import android.view.View
 import androidx.appcompat.widget.PopupMenu
-import com.example.parentallock.R
+import com.parental.control.displaytime.kids.safety.R
 
 typealias OnItemClickListener = (position: Int) -> Unit
 

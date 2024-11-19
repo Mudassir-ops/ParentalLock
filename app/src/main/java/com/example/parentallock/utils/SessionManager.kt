@@ -2,7 +2,7 @@ package com.example.parentallock.utils
 
 import android.content.SharedPreferences
 import android.util.Log
-import com.example.parentallock.R
+import com.parental.control.displaytime.kids.safety.R
 import com.example.parentallock.utils.AppConstants.IS_SERVICE_RUNNING
 import com.example.parentallock.utils.AppConstants.SELECTED_LOCK_TYPE
 import com.example.parentallock.utils.AppConstants.SELECTED_LOTTIE_RESOURCE_KEY

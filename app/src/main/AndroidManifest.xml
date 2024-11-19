@@ -14,7 +14,7 @@
         tools:ignore="QueryAllPackagesPermission" />
 
     <application
-        android:name=".MyApplication"
+        android:name="com.example.parentallock.MyApplication"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -25,7 +25,7 @@
         android:theme="@style/Theme.ParentalLock"
         tools:targetApi="31">
         <activity
-            android:name=".presentation.MainActivity"
+            android:name="com.example.parentallock.presentation.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -38,7 +38,7 @@
             android:resource="@array/preloaded_fonts" />
 
         <service
-            android:name=".service.LockScreenService"
+            android:name="com.example.parentallock.service.LockScreenService"
             android:exported="false"
             android:foregroundServiceType="mediaPlayback" />
     </application>

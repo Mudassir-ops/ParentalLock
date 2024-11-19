@@ -7,9 +7,9 @@ import androidx.fragment.app.FragmentManager
 import androidx.lifecycle.Lifecycle
 import androidx.navigation.fragment.findNavController
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import com.example.parentallock.R
-import com.example.parentallock.data.model.OnGoingScreenModel
-import com.example.parentallock.databinding.FragmentOnGoingParentBinding
+import com.parental.control.displaytime.kids.safety.R
+import com.parental.control.displaytime.kids.safety.data.model.OnGoingScreenModel
+import com.parental.control.displaytime.kids.safety.databinding.FragmentOnGoingParentBinding
 import com.example.parentallock.utils.AppConstants.ON_GOING_DATA_MODEL
 import com.example.parentallock.utils.viewBinding
 import com.google.android.material.tabs.TabLayoutMediator

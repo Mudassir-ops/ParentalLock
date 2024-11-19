@@ -5,8 +5,8 @@ import android.widget.CheckBox
 import androidx.appcompat.widget.AppCompatCheckBox
 import androidx.navigation.NavController
 import androidx.viewpager2.widget.ViewPager2
-import com.example.parentallock.R
-import com.example.parentallock.utils.CustomizeCheckBox
+import com.parental.control.displaytime.kids.safety.R
+import com.parental.control.displaytime.kids.safety.utils.CustomizeCheckBox
 import com.example.parentallock.utils.all_extension.showToast
 import com.google.android.material.button.MaterialButton
 

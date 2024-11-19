@@ -1,4 +1,4 @@
-package com.example.parentallock.data.model
+package com.parental.control.displaytime.kids.safety.data.model
 
 import android.content.res.Resources
 import android.graphics.Bitmap

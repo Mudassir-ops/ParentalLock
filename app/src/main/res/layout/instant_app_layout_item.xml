@@ -6,7 +6,7 @@
 
         <variable
             name="instantAppDataModel"
-            type="com.example.parentallock.data.model.InstantLockAdapterItem.NORMAL" />
+            type="com.parental.control.displaytime.kids.safety.data.model.InstantLockAdapterItem.NORMAL" />
     </data>
 
 

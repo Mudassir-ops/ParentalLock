@@ -6,7 +6,7 @@
 
         <variable
             name="allAppsEntity"
-            type="com.example.parentallock.data.model.AllAppsEntity" />
+            type="com.parental.control.displaytime.kids.safety.data.model.AllAppsEntity" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

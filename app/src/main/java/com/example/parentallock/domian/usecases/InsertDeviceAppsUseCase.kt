@@ -1,6 +1,6 @@
 package com.example.parentallock.domian.usecases
 
-import com.example.parentallock.data.model.DeviceAppEntity
+import com.parental.control.displaytime.kids.safety.data.model.DeviceAppEntity
 import com.example.parentallock.domian.repository.DeviceAppsRepository
 import javax.inject.Inject
 

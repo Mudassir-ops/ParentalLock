@@ -49,7 +49,7 @@ internal object SlideToActIconUtil {
     }
 
     fun createIconAnimator(
-        view: com.example.parentallock.utils.slidetolock.SlideToActView,
+        view: SlideToActView,
         icon: Drawable,
         listener: ValueAnimator.AnimatorUpdateListener,
     ): ValueAnimator {

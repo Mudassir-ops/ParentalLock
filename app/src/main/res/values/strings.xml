@@ -34,5 +34,6 @@
     <string name="share">Share</string>
     <string name="about_us">About Us</string>
     <string name="privacy_policy">Privacy Policy</string>
+    <string name="no_launcher">No Launcher</string>
 
 </resources>

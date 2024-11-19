@@ -4,7 +4,7 @@ import android.content.Context
 import android.util.AttributeSet
 import androidx.appcompat.widget.AppCompatCheckBox
 import androidx.core.content.ContextCompat
-import com.example.parentallock.R
+import com.parental.control.displaytime.kids.safety.R
 
 class CustomizeCustomAppLockSelectionCheckBox(context: Context, attrs: AttributeSet?) :
     AppCompatCheckBox(context, attrs) {

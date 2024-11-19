@@ -11,11 +11,11 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
-import com.example.parentallock.R
-import com.example.parentallock.data.model.InstantLockAdapterItem
-import com.example.parentallock.data.model.MessageEvent
-import com.example.parentallock.data.model.ServiceEvent
-import com.example.parentallock.databinding.FragmentAppLockParentBinding
+import com.parental.control.displaytime.kids.safety.R
+import com.parental.control.displaytime.kids.safety.data.model.InstantLockAdapterItem
+import com.parental.control.displaytime.kids.safety.data.model.MessageEvent
+import com.parental.control.displaytime.kids.safety.data.model.ServiceEvent
+import com.parental.control.displaytime.kids.safety.databinding.FragmentAppLockParentBinding
 import com.example.parentallock.service.LockScreenService
 import com.example.parentallock.utils.SessionManager
 import com.example.parentallock.utils.viewBinding

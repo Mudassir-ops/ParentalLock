@@ -4,8 +4,8 @@ import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.parentallock.data.model.AllAppsEntity
-import com.example.parentallock.databinding.AllDeviceCustomAppsItemLayoutBinding
+import com.parental.control.displaytime.kids.safety.data.model.AllAppsEntity
+import com.parental.control.displaytime.kids.safety.databinding.AllDeviceCustomAppsItemLayoutBinding
 
 
 class MyDeviceAppsAdapter(

@@ -1,4 +1,4 @@
-package com.example.softwareupdate.di
+package com.example.parentallock.di
 
 import android.app.NotificationChannel
 import android.app.NotificationManager
@@ -8,7 +8,7 @@ import android.content.Intent
 import android.os.Build
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
-import com.example.parentallock.R
+import com.parental.control.displaytime.kids.safety.R
 import com.example.parentallock.data.data.NotificationRepository
 import com.example.parentallock.presentation.MainActivity
 import com.example.parentallock.utils.AppConstants.PARENTAL_LOCK_CHANNEL_ID

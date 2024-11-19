@@ -34,7 +34,7 @@ import androidx.core.content.ContextCompat
 import androidx.core.content.res.ResourcesCompat
 import androidx.core.graphics.drawable.DrawableCompat
 import androidx.core.widget.TextViewCompat
-import com.example.parentallock.R
+import com.parental.control.displaytime.kids.safety.R
 import com.example.parentallock.utils.slidetolock.SlideToActIconUtil.createIconAnimator
 import com.example.parentallock.utils.slidetolock.SlideToActIconUtil.loadIconCompat
 import com.example.parentallock.utils.slidetolock.SlideToActIconUtil.startIconAnimation

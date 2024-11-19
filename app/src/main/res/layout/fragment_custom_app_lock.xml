@@ -7,7 +7,7 @@
     android:background="@color/light_white"
     android:paddingHorizontal="@dimen/_15sdp"
     android:paddingTop="@dimen/_10sdp"
-    tools:context=".presentation.customlock.CustomAppLockFragment">
+    tools:context="com.example.parentallock.presentation.customlock.CustomAppLockFragment">
     <include
         android:id="@+id/header_layout"
         layout="@layout/header_layout" />

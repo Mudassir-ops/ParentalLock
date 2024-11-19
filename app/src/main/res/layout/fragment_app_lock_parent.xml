@@ -8,7 +8,7 @@
     android:paddingHorizontal="@dimen/_15sdp"
     android:paddingTop="@dimen/_10sdp"
     android:paddingBottom="@dimen/_5sdp"
-    tools:context=".presentation.instantlock.AppLockParentFragment">
+    tools:context="com.example.parentallock.presentation.instantlock.AppLockParentFragment">
 
     <include
         android:id="@+id/header_layout"

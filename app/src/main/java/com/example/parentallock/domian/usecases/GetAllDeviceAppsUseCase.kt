@@ -1,7 +1,7 @@
 package com.example.parentallock.domian.usecases
 
-import com.example.parentallock.data.model.AllAppsEntity
-import com.example.parentallock.data.model.DeviceAppEntity
+import com.parental.control.displaytime.kids.safety.data.model.AllAppsEntity
+import com.parental.control.displaytime.kids.safety.data.model.DeviceAppEntity
 import com.example.parentallock.domian.repository.DeviceAppsRepository
 import com.example.parentallock.utils.DataState
 import kotlinx.coroutines.flow.Flow

@@ -19,10 +19,10 @@ import android.view.WindowManager
 import androidx.core.app.ServiceCompat
 import com.airbnb.lottie.LottieAnimationView
 import com.airbnb.lottie.LottieDrawable
-import com.example.parentallock.R
+import com.parental.control.displaytime.kids.safety.R
 import com.example.parentallock.data.data.NotificationRepository
-import com.example.parentallock.data.model.MessageEvent
-import com.example.parentallock.data.model.ServiceEvent
+import com.parental.control.displaytime.kids.safety.data.model.MessageEvent
+import com.parental.control.displaytime.kids.safety.data.model.ServiceEvent
 import com.example.parentallock.domian.usecases.GetAllDeviceAppsUseCase
 import com.example.parentallock.utils.SessionManager
 import com.example.parentallock.utils.slidetolock.SlideToActView

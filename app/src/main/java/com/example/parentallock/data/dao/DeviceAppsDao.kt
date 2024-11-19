@@ -5,7 +5,7 @@ import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import com.example.parentallock.data.model.DeviceAppEntity
+import com.parental.control.displaytime.kids.safety.data.model.DeviceAppEntity
 
 @Dao
 interface DeviceAppsDao {

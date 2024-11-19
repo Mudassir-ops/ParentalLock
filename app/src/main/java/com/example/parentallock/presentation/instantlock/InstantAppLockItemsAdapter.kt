@@ -4,9 +4,9 @@ import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.parentallock.data.model.InstantLockAdapterItem
-import com.example.parentallock.databinding.InstantAppCallLayoutItemBinding
-import com.example.parentallock.databinding.InstantAppLayoutItemBinding
+import com.parental.control.displaytime.kids.safety.data.model.InstantLockAdapterItem
+import com.parental.control.displaytime.kids.safety.databinding.InstantAppCallLayoutItemBinding
+import com.parental.control.displaytime.kids.safety.databinding.InstantAppLayoutItemBinding
 
 @Suppress("unused")
 class InstantAppLockItemsAdapter(

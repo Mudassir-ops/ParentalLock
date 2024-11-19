@@ -1,4 +1,4 @@
-package com.example.parentallock
+package com.parental.control.displaytime.kids.safety
 
 import org.junit.Assert.assertEquals
 import org.junit.Test

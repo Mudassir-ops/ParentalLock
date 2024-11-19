@@ -4,8 +4,8 @@ import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
-import com.example.parentallock.R
-import com.example.parentallock.databinding.FragmentHomeBinding
+import com.parental.control.displaytime.kids.safety.R
+import com.parental.control.displaytime.kids.safety.databinding.FragmentHomeBinding
 import com.example.parentallock.presentation.ongoingscreens.safeNavigateOnClick
 import com.example.parentallock.presentation.ongoingscreens.setMutuallyExclusiveWith
 import com.example.parentallock.utils.viewBinding

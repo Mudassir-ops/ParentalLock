@@ -2,8 +2,8 @@ package com.example.parentallock.presentation.customlock
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.parentallock.data.model.AllAppsEntity
-import com.example.parentallock.data.model.DeviceAppEntity
+import com.parental.control.displaytime.kids.safety.data.model.AllAppsEntity
+import com.parental.control.displaytime.kids.safety.data.model.DeviceAppEntity
 import com.example.parentallock.domian.usecases.GetAllDeviceAppsUseCase
 import com.example.parentallock.domian.usecases.InsertDeviceAppsUseCase
 import com.example.parentallock.utils.DataState

@@ -3,17 +3,17 @@ plugins {
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.dagger.hilt)
     alias(libs.plugins.safe.args)
-    id ("kotlin-kapt")
+    id("kotlin-kapt")
 //    id("com.google.devtools.ksp")
     id("kotlin-parcelize")
 }
 
 android {
-    namespace = "com.example.parentallock"
+    namespace = "com.parental.control.displaytime.kids.safety"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.parentallock"
+        applicationId = "com.parental.control.displaytime.kids.safety"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -21,11 +21,6 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
-//        javaCompileOptions {
-//            annotationProcessorOptions {
-//                arguments += ["room.schemaLocation": "$projectDir/schemas".toString()]
-//            }
-//        }
     }
 
     buildTypes {

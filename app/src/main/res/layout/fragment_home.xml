@@ -6,7 +6,7 @@
 
         <variable
             name="onGoingModel"
-            type="com.example.parentallock.data.model.OnGoingScreenModel" />
+            type="com.parental.control.displaytime.kids.safety.data.model.OnGoingScreenModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -44,7 +44,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tv_label_one" />
 
-        <com.example.parentallock.utils.CustomizeCheckBox
+        <com.parental.control.displaytime.kids.safety.utils.CustomizeCheckBox
             android:id="@+id/btnInstantLock"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -66,7 +66,7 @@
             app:layout_constraintVertical_chainStyle="packed"
             app:layout_constraintWidth_percent="0.7" />
 
-        <com.example.parentallock.utils.CustomizeCheckBox
+        <com.parental.control.displaytime.kids.safety.utils.CustomizeCheckBox
             android:id="@+id/btnCustomLock"
             android:layout_width="0dp"
             android:layout_height="0dp"
